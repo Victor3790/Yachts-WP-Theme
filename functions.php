@@ -40,8 +40,6 @@ add_action( 'init', 'cptui_register_my_taxes' );
 include (get_theme_file_path('/inc/cbt_custom_queries.php'));
 add_action( 'pre_get_posts', 'cbt_customize_queries' );
 
-//Filter hooks
-
 include (get_theme_file_path('/inc/cbt_custom_logo.php'));
 add_filter( 'get_custom_logo', 'cbt_custom_logo' );
 
