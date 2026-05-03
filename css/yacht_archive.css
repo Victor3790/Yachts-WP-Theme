@@ -1,0 +1,74 @@
+body, html, main, #page {
+  height: 100%;
+}
+
+.hero--archive
+{
+  height: 100%!important;
+  background-image: url('../imgs/hero-archive_xs.jpg'); 
+  position: relative;
+}
+
+.hero--venta-archive
+{
+  height: 100%!important;
+  background-image: url('../imgs/hero_venta.jpg'); 
+  position: relative;
+}
+
+.hero__arrow {
+  position: absolute;
+  bottom: 50px;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  width: 35px;
+  height: 35px;
+  -webkit-transform: rotate( 317deg );
+        transform: rotate( 317deg );
+}
+
+.cards {
+  padding-top: 55px; }
+
+.card {
+  width: 100%;
+  margin-bottom: 25px;
+  overflow: hidden; }
+
+.card__info {
+  padding: 15px; }
+
+.card__title {
+  text-align: center;
+  margin: 0; }
+
+.card a:hover{
+  text-decoration: none; }
+
+.card__text {
+  margin: 0;
+  text-align: center; }
+
+.card--upper {
+  text-transform: uppercase; }
+
+.card__picture--center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+@media (min-width: 768px) {
+  .hero--archive
+  {
+    background-position: top!important;
+    background-image: url('../imgs/hero-archive.jpg'); }
+  .card {
+    margin-bottom: 35px; } }
+
+@media (min-width: 992px) {
+  .card {
+    margin-bottom: 40px; } }
+
