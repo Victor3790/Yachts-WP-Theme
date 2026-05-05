@@ -120,9 +120,6 @@
 						</div>
 						<div id="yacht_text_content" class="col-12 col-md-6" style="margin-top: 25px;">
 							<?php the_content(); ?>
-							<!--<div id="more_pics" class="yacht_more_pics">
-								<p id="more_pics_p"><i>Ver más fotografías</i></p>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -173,9 +170,6 @@
 								</span>
 							</div>	
 							<?php echo do_shortcode( '[contact-form-7 id="243" title="Main"]' ); ?>
-							<div class="yacht_more_pics_info">
-								<p class="yacht_more_pics_info_p"><i>Ver más fotografías</i></p>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -186,7 +180,6 @@
 				<div class="row">
 					<div class="col-6"></div>
 					<div class="col-6">
-						<p class="yacht_more_pics_info_p"><i>Ver más fotografías</i></p>
 					</div>
 				</div>
 			</div>
