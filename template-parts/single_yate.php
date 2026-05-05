@@ -18,7 +18,7 @@
 	if( !empty($cruising_areas) )
 		$areas_string = join( ', ', wp_list_pluck( $cruising_areas, 'name' ) );
 	
-	$attachments = get_posts( 
+	/*$attachments = get_posts( 
 						array( 
 							'post_type' => 'attachment', 
 							'post_mime_type' => 'image', 
@@ -26,7 +26,9 @@
 							'post_status' => null,
 							'post_parent' => $post->ID
 						) 
-					); 
+					); */
+	
+	$attachments = array();
 
 	if( $attachments ){
 
