@@ -18,16 +18,6 @@
 	if( !empty($cruising_areas) )
 		$areas_string = join( ', ', wp_list_pluck( $cruising_areas, 'name' ) );
 	
-	/*$attachments = get_posts( 
-						array( 
-							'post_type' => 'attachment', 
-							'post_mime_type' => 'image', 
-							'numberposts' => -1,
-							'post_status' => null,
-							'post_parent' => $post->ID
-						) 
-					); */
-	
 	$attachments = array();
 
 	if( $attachments ){
@@ -118,7 +108,30 @@
 									</strong>
 								</li>
 							</ul>
+							<div class="yacht_after_info">
+								<div class="yacht_more_pics">
+									<div class="row">
+										<div class="col-6"></div>
+										<div class="col-6">
+										</div>
+									</div>
+								</div>
+								<div class="yacht_back_to_search" style="width: 100%; margin-top: 10px;">
+									<?php if( is_singular( 'yate' ) ) : ?>
 
+										<a href="<?php echo home_url('yate'); ?>">
+											<i>Volver a la búsqueda</i>
+										</a>
+
+									<?php else : ?>	
+
+										<a href="<?php echo home_url('yate_venta'); ?>">
+											<i>Volver a la búsqueda</i>
+										</a>
+
+									<?php endif; ?>
+								</div>
+							</div>
 						</div>
 						<div id="yacht_text_content" class="col-12 col-md-6" style="margin-top: 25px;">
 							<?php the_content(); ?>
@@ -171,34 +184,22 @@
 									CONTÁCTENOS
 								</span>
 							</div>	
-							<?php echo do_shortcode( '[contact-form-7 id="243" title="Main"]' ); ?>
+							<div class="yacht-contact">
+								<p>
+									<a href="mailto:<?php the_field('contact_email', 'option'); ?>" class="yacht-contact__item">
+										<i class="fa-solid fa-envelope"></i>
+										<span class="yacht-contact__item-name">Email</span>
+									</a>
+								</p>
+								<p>
+									<a href="tel:<?php the_field('contact_phone', 'option'); ?>" class="yacht-contact__item">
+										<i class="fa-solid fa-phone"></i>
+										<span class="yacht-contact__item-name">Teléfono</span>
+									</a>
+								</p>	
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="yacht_after_info">
-			<div class="yacht_more_pics">
-				<div class="row">
-					<div class="col-6"></div>
-					<div class="col-6">
-					</div>
-				</div>
-			</div>
-			<div class="yacht_back_to_search">
-				<?php if( is_singular( 'yate' ) ) : ?>
-
-					<a href="<?php echo home_url('yate'); ?>">
-						<i>Volver a la búsqueda</i>
-					</a>
-
-				<?php else : ?>	
-
-					<a href="<?php echo home_url('yate_venta'); ?>">
-						<i>Volver a la búsqueda</i>
-					</a>
-
-				<?php endif; ?>
 			</div>
 		</div>
 		<div>

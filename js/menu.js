@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-    $("html"). on("contextmenu",function(e){ return false; });
+    //$("html"). on("contextmenu",function(e){ return false; });
     
     let menu            = $('#menu');
     let search          = $('#search');
