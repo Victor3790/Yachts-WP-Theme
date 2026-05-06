@@ -49,7 +49,7 @@ function cbt_search_query( $query ){
                             'type'=>'NUMERIC'  
                           );
 
-  if( valid_meta_input( $min_rate, 1, $max_rate, 21 ) )
+  if( valid_meta_input( $min_cabins, 1, $max_cabins, 21 ) )
     $meta_query[] = array(  'key'=>'camarotes_data', 
                             'value'=>array($min_cabins, $max_cabins), 
                             'compare'=>'BETWEEN', 
