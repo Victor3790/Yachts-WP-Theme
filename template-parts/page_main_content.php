@@ -1,5 +1,5 @@
   <div class="hero hero--home hero-home">
-    <h1 class="hero-home__text">ALQUILER DE YATES Y BARCOS EN IBIZA</h1>
+    <h1 class="hero-home__text" style="margin: 0; margin-bottom: 100px;">ALQUILER DE YATES </br>EN IBIZA</h1>
   </div>
   <div class="section section__info section--white">
     <div class="section__picture section--right">
@@ -11,12 +11,7 @@
       <div class="section__text section--right">
         <h2>ALQUILER DE YATES</h2>
         <p>
-          En Barcos Barcelona S.L., ofrecemos servicio de alquiler de yates y alquiler 
-          de barcos en los destinos más impresionantes y exclusivos del Mediterráneo, 
-          Caribe y Bahamas, Maldivas. Disponemos de una amplia selección de alquiler 
-          de yates, alquiler de megayates, alquiler de veleros, alquiler de goletas y 
-          catamaranes únicos. Disfrute de un servicio totalmente personalizado, diseñado 
-          para cubrir todas sus necesidades
+          Mauris volutpat, ligula et congue ultrices, sapien tortor tincidunt orci, id malesuada urna purus et eros. Suspendisse in quam a leo viverra condimentum eget eu justo. Vivamus lacinia lacus nulla, quis elementum turpis porttitor eget. Nunc quis lectus erat. Nulla facilisi. Nam non lorem vel justo fermentum gravida. Vestibulum a velit velit.
         </p>
         <br>
         <br>
@@ -36,10 +31,7 @@
       <div class="section__text section--left">
         <h2>MÁS SOBRE NOSOTROS</h2>
         <p>
-          Somos una empresa de reconocido prestigio a nivel mundial. las un formado 
-          por un equipo de expertos profesionales especializados en proporcionar 
-          asesoramiento y asistencia en cualquier aspecto relacionado con el alquiler 
-          de yates y la gestión integral de su barco.
+          Mauris volutpat, ligula et congue ultrices, sapien tortor tincidunt orci, id malesuada urna purus et eros. Suspendisse in quam a leo viverra condimentum eget eu justo. Vivamus lacinia lacus nulla, quis elementum turpis porttitor eget. Nunc quis lectus erat. Nulla facilisi. Nam non lorem vel justo fermentum gravida. Vestibulum a velit velit.
         </p>
       </div>
     </div>
@@ -54,11 +46,7 @@
       <div class="section__text section--right">
         <h2>ACTIVIDADES</h2>
         <p>
-          En Barcos Barcelona S.L, podemos organizar un evento corporativo, 
-          presentaciones de producto, reuniones de negocio o programas de incentivos 
-          a bordo de uno de nuestros yates. Una manera diferente y original de sorprender 
-          a sus empleados, colaboradores o clientes. Consulte disponibilidad y precios de 
-          toda la flota barcos de alquiler. 
+          Mauris volutpat, ligula et congue ultrices, sapien tortor tincidunt orci, id malesuada urna purus et eros. Suspendisse in quam a leo viverra condimentum eget eu justo. Vivamus lacinia lacus nulla, quis elementum turpis porttitor eget. Nunc quis lectus erat. Nulla facilisi. Nam non lorem vel justo fermentum gravida. Vestibulum a velit velit.  
         </p>
       </div>
     </div>
@@ -66,23 +54,22 @@
   <div id="contact" class="section section--justified section--dark">
     <div class="section__form">
       <h2 style="text-transform:uppercase;">Envíenos su mensaje</h2>
-      <?php echo do_shortcode( '[contact-form-7 id="243" title="Main"]' ); ?>
     </div>
     <div class="section__contact">
       <h2 style="text-transform:uppercase;">Contacto</h2>
       <ul class="section__contact__info-group">
         <li>Teléfono:</li>
-        <li>(0034) 620 26 90 20</li>
+        <li>(00) 000000</li>
       </ul>
       <ul class="section__contact__info-group">
         <li>Mail:</li>
-        <li><a href="mailto:info@barcosbarcelona.com">info@barcosbarcelona.com</a></li>
+        <li><a href="mailto:info@barcosbarcelona.com">mail@example.com</a></li>
       </ul>
       <ul class="section__contact__info-group">
         <li>Dirección:</li>
-        <li>Carrer Ses Figueres, 31,</li>
-        <li>07800 Ibiza, Islas Baleares,</li>
-        <li>España</li>
+        <li>Calle falsa</li>
+        <li>123,</li>
+        <li>Springfield</li>
       </ul>
     </div>
   </div>
